@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Header from "@/components/header";
+import LandingPage from "@/components/landingPage";
 
 export default function Home() {
   return (
-    <div className="text-red-900 font-bold text-9xl">
-      Hello World!
+    <div>
+      <Header />
+      <LandingPage />
     </div>
   );
 }
